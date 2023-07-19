@@ -1,78 +1,65 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
-
-<div align="center">
-
-  <h1><b>hello-Rails-backend</b></h1>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
- 
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Blog App ](#about-the-project)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage ](#usage-)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgements](#acknowledgements)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Hello-rails-backend <a id="about-project"></a>
 
-This app simply retrieves random greetings from Postgresql databse and display on browser .
+# 📖 hello-rails-back-end <a name="about-the-project"></a>
+
+The **hello-rails-back-end** is an example of a back end web application fully used as an api for our front end [hello-react-front-end](https://github.com/codeWithHyder/hello-react-frontend).
+
 ## 🛠 Built With <a name="built-with"></a>
-
-- Ruby
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>Ruby</li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/ror">Linters</a></li>
+
   </ul>
 </details>
-
 <details>
-  <summary>Test</summary>
+  <summary>Server</summary>
   <ul>
-    <li>RSPEC</li>
+    <li><a href="https://rubyonrails.org/">ROR</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li>PostgreSQL</li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
-
-## [LINK to Front end react hello-react-frontend]()
-
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
--Use database migration files to maintain database schema.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- Use database migration files to maintain database schema.
+- Understand ORM
+-Implement Api endpoints
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,34 +67,48 @@ This app simply retrieves random greetings from Postgresql databse and display o
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need:
 
-Ruby on Rails installed and running. To get more information, read the installation guide.
+- [Ruby on Rails](https://rubyonrails.org/) installed and running. To get more information, read the [installation guide](https://guides.rubyonrails.org/).
 
-PostgreSQL installed and running
+- [PostgreSQL](https://www.postgresql.org/) installed and running
 
 ### Setup
 
-Clone this [repository]() to your desired folder.
+Clone this repository to your desired folder:
+
+```
+  git clone https://github.com/codeWithHyder/hello-rails-back-end
+  cd Hello-back-end-app
+```
 
 ### Install
 
-bundle install
+Install thr project dependencies with:
 
-### Usage
+```
+  bundle install
+```
 
-**To run the project follow the following instruction:-**
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command:
+
+```
   rails server
+```
+install and run the [front end](https://github.com/codeWithHyder/hello-react-frontend) after this step
 
-### Run tests
 
-To run tests, run the following command: 
+### Deployment
 
-rails test:all
+You can deploy this project using:
+
+```
+  N/A
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,11 +118,8 @@ rails test:all
 
 👤 **Ghulam Hyder Dar**
 
-- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
-- Twitter: [@Hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar/)
-
-
+- GitHub: [@githubhandle](https://github.com/codeWithHyder)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghulam-hyder-dar/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,9 +127,9 @@ rails test:all
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--Processing data in models.
--Views.
 
+- Add more API endpoints.
+- API documentation.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,7 +140,7 @@ rails test:all
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]().
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,28 +148,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a ⭐️.
+If you like this project and want to support me make cooler projects Give this project a Star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-🤝 Contributing
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Can I use this project?**
-
-  - It's MIT license, feel free to use as you like.
+I would like to thank the Microverse team for their invaluable resources
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
